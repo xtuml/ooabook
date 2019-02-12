@@ -17,10 +17,10 @@ In this section, outline the important points relating to this issue/bug that
 the reader would need to know in order to understand the rest of this
 document. Here is an example reference to a document reference <<dr-3>>.
 Here is an example with named text <<dr-3,SMASL Specification>>.
+Here we refer to the image below, <<Model-Explorer>>.
 
-![My Image](myimage.png)
-[[wasl-flow]]
-image::localfilename.png[image description alternate text]
+[[Model-Explorer]]
+image::localimage.png[image description alternate text,width=25%]
 caption text under image
 
 == 3 Requirements
