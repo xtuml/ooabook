@@ -1,0 +1,104 @@
+OOA Book
+========
+Levi Starrett
+v1.0, 2019-02
+:doctype: book
+
+////
+This is the root file for OOA Book, a book covering topics around the
+Shlaer-Mellor Method, xtUML, xUML and executable, translatable modeling.
+The book focuses on topics not covered in previous literature.
+////
+
+[dedication]
+Dedication
+----------
+This book is dedicated to lovers of _abstraction_.  You know who you are...
+incessantly searching for the next higher level.
+
+[preface]
+Preface
+-------
+TODO:  Write preface.  Explain stuff to expect.
+
+Preface Sub-section
+~~~~~~~~~~~~~~~~~~~
+Preface sub-section body.
+
+// For now, leave these first three chapters as-is.  They serve as examples
+// of the syntax of a chapter.
+include::chapter_first.adoc[First Chapter]
+
+include::chapter_second.adoc[Second Chapter]
+
+include::chapter_third.adoc[Third Chapter]
+
+
+:numbered!:
+
+[appendix]
+Appendix
+--------
+One or more optional appendixes go here at section level 1.
+
+Appendix Sub-section
+~~~~~~~~~~~~~~~~~~~
+Sub-section body.
+
+[appendix]
+Another Appendix
+----------------
+next appendix
+
+
+[bibliography]
+Bibliography
+------------
+Find here works referenced by this book and other works considered important
+to Shlaer-Mellor, xtUML and xUML people.
+
+[bibliography]
+.Books
+- [[[taoup]]] Eric Steven Raymond. 'The Art of Unix
+  Programming'. Addison-Wesley. ISBN 0-13-142901-9.
+- [[[walsh-muellner]]] Norman Walsh & Leonard Muellner.
+  'DocBook - The Definitive Guide'. O'Reilly & Associates. 1999.
+  ISBN 1-56592-580-7.
+
+[bibliography]
+.Articles
+- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
+
+[bibliography]
+.Web Sites
+- TODO:  Learn how to link web sites here in a nice way.
+- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
+
+
+[glossary]
+Example Glossary
+----------------
+Glossaries are optional. Glossaries entries are an example of a style
+of AsciiDoc labeled lists.
+
+[glossary]
+A glossary term::
+  The corresponding (indented) definition.
+
+A second glossary term::
+  The corresponding (indented) definition.
+
+
+[colophon]
+Example Colophon
+----------------
+Text at the end of a book describing facts about its production.
+
+
+[index]
+Example Index
+-------------
+////////////////////////////////////////////////////////////////
+The index is normally left completely empty, the contents being
+generated automatically by the DocBook toolchain.
+////////////////////////////////////////////////////////////////

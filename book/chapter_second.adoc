@@ -1,0 +1,6 @@
+The Second Chapter
+------------------
+An example link to anchor at start of the <<X1,first sub-section>>.
+indexterm:[Second example index entry]
+
+An example link to a bibliography entry <<taoup>>.
