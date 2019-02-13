@@ -1,0 +1,141 @@
+= OOA Book Repository
+
+xtUML Project Implementation Note
+
+== 1 Abstract
+
+Create and structure a git repository on GitHub to house the development,
+authoring and production and of the OOA Book.
+
+== 2 Introduction and Background
+
+There has been interest in a report or book on the current state and
+advancements in the Shlaer-Mellor Method and associated tooling.  Work
+has begun drafting this report.  The work will be highly collaborative
+involving multiple contributors.  This note documents the initial setup
+of a space within which to work.
+
+== 3 Requirements
+
+=== 3.1 Server Location
+The server location is not critical.  Only git features will be used.
+Host the repository on https://github.com/[GitHub] to start.  Use the
+https://github.com/xtuml[xtuml] organization.  The initial repository
+shall be private.  The expectation at this point is to make it public
+when standards and conventions for the work have been smoothed out.
+
+=== 3.2 Repository Name
+Name the repository 'ooabook'.
+
+=== 3.3 Directory Structure
+
+* The respository shall have a folder named 'book' to contain the source
+for the book itself.
+* The repository shall have a folder named 'doc' for documents supporting
+the specification, design, implementation and maintenance of the book.
+
+==== 3.3.1 Images
+Supply a folder for images ('images') establishing the convention that
+all images go in a single folder under the 'book' directory.
+
+==== 3.3.2 File Naming Conventions
+Naming conventions shall be intensional even if they evolve over time.
+Here are some rules to start.
+
+- File names shall have no blanks in them.
+- AsciiDoc source files shall have the file suffix '.adoc'.
+- Sections and chapters shall not be numbered nor referred to by number
+during the development.  Therefore, the files containing chapters shall
+be named with short descriptive names, 'chapter_<short_name_here>.adoc'.
+
+==== 3.3.3 Engineering Document Infrastructure
+Under the 'doc' folder directories shall be supplied to support
+engineering notes similar to those found for xtuml/bridgepoint under
+the 'doc-bridgepoint' folder (namely 'process' and 'notes').
+
+=== 3.4 Chapter Template
+An example of a well-formed chapter file shall be supplied and maintained
+as 'chapter_template.adoc'.  Authors will make a copy of this file and
+edit in their content while being guided (and adhering to) the conventions
+established and maintained in the template.
+
+=== 3.5 README
+'README.adoc' shall reside in the root of the repository and shall explain
+the project.
+
+=== 3.6 Contributing
+'CONTRIBUTING.adoc' shall reside in the root of the repository to explain
+what contributors need to do to successfully participate.  This explanation
+shall include an appropriate release or transfer of rights of any material
+supplied to the project.
+
+==== 3.6.1 Issue Tracker
+Part of contributing is using the correct issue tracker.
+A <<dr-6,Redmine>> -based bug tracker found at <<dr-7,One Fact Support
+Issue Tracker>> will be used to track issues related to the project.
+
+=== 3.7 Initial Licensing
+
+==== 3.7.1 Working Documents
+Documentation used to describe and design the book will be licensed using
+the <<dr-8,Creative Commons CC0>> license.
+
+==== 3.7.2 Book Proper
+No initial licensing is being spelled out.  One Fact Inc shall copyright
+the initial draft of the book.  It is anticipated that more open licensing
+will be applied once better understood.
+
+
+== 4 Work Required
+
+== 5 Implementation Comments
+
+== 6 Unit Test
+
+Testing will be accomplished by inspection of the folder structure and files.
+
+== 7 User Documentation
+
+n/a
+
+== 8 Code Changes
+
+- fork/repository:  cortlandstarrett/ooabook
+- branch:  11513_repo
+
+----
+ CONTRIBUTING.md                         |  70 +++++++++++++++++++++++++++++
+ LICENSE.adoc                            | 202 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md => README.adoc                |   2 +-
+ book/book.adoc                          | 104 ++++++++++++++++++++++++++++++++++++++++++
+ book/book.txt                           | 156 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ book/chapter_second.adoc                |   6 +++
+ book/chapter_template.adoc              |  53 ++++++++++++++++++++++
+ book/chapter_third.adoc                 |   3 ++
+ book/images/asciidoc.png                | Bin 0 -> 27677 bytes
+ doc/process/templates/README.adoc       |  11 +++++
+ doc/process/templates/ant_template.adoc |  99 ++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/chapter.adoc      |  53 ++++++++++++++++++++++
+ doc/process/templates/dnt_template.adoc | 126 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/int_template.adoc | 136 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/localimage.png    | Bin 0 -> 12827 bytes
+ doc/process/templates/rvm_template.adoc |  22 +++++++++
+ 16 files changed, 1042 insertions(+), 1 deletion(-)
+----
+
+== 9 Document References
+
+. [[dr-1]] https://support.onefact.net/issues/11513[11513 - create repository]
+. [[dr-2]] http://asciidoc.org/[AsciiDoc - Text Based Documentation Generation]
+. [[dr-3]] https://github.com/[GitHub - "how people build software"]
+. [[dr-4]] https://github.com/xtuml/[GitHub xtuml organization]
+. [[dr-5]] https://xtuml.org/[xtUML.org]
+. [[dr-6]] https://www.redmine.org/[Redmine - flexible project management web application]
+. [[dr-7]] https://support.onefact.net/[One Fact Support Issue Tracker (Redmine)]
+. [[dr-8]] https://creativecommons.org/share-your-work/public-domain/cc0/[Creative Commons CC0 License]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---

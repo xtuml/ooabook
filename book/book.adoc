@@ -27,7 +27,7 @@ Preface sub-section body.
 
 // For now, leave these first three chapters as-is.  They serve as examples
 // of the syntax of a chapter.
-include::chapter_first.adoc[First Chapter]
+include::chapter_template.adoc[Example Chapter]
 
 include::chapter_second.adoc[Second Chapter]
 
