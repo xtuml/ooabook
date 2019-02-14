@@ -1,32 +1,29 @@
-OOA Book
-========
+= OOA Book
 Levi Starrett
 v1.0, 2019-02
 :doctype: book
 
 ////
-This is the root file for OOA Book, a book covering topics around the
+This is the root file for _OOA Book_, a book covering topics around the
 Shlaer-Mellor Method, xtUML, xUML and executable, translatable modeling.
 The book focuses on topics not covered in previous literature.
 ////
 
 [dedication]
-Dedication
-----------
+== Dedication
 This book is dedicated to lovers of _abstraction_.  You know who you are...
 incessantly searching for the next higher level.
 
 [preface]
-Preface
--------
+== Preface
 TODO:  Write preface.  Explain stuff to expect.
 
-Preface Sub-section
-~~~~~~~~~~~~~~~~~~~
+=== Preface Sub-section
 Preface sub-section body.
 
 // For now, leave these first three chapters as-is.  They serve as examples
 // of the syntax of a chapter.
+
 include::chapter_template.adoc[Example Chapter]
 
 include::chapter_second.adoc[Second Chapter]
@@ -37,23 +34,19 @@ include::chapter_third.adoc[Third Chapter]
 :numbered!:
 
 [appendix]
-Appendix
---------
+== Appendix
 One or more optional appendixes go here at section level 1.
 
-Appendix Sub-section
-~~~~~~~~~~~~~~~~~~~
+=== Appendix Sub-section
 Sub-section body.
 
 [appendix]
-Another Appendix
-----------------
+== Another Appendix
 next appendix
 
 
 [bibliography]
-Bibliography
-------------
+== Bibliography
 Find here works referenced by this book and other works considered important
 to Shlaer-Mellor, xtUML and xUML people.
 
@@ -76,8 +69,7 @@ to Shlaer-Mellor, xtUML and xUML people.
 
 
 [glossary]
-Example Glossary
-----------------
+== Example Glossary
 Glossaries are optional. Glossaries entries are an example of a style
 of AsciiDoc labeled lists.
 
@@ -90,14 +82,12 @@ A second glossary term::
 
 
 [colophon]
-Example Colophon
-----------------
+== Example Colophon
 Text at the end of a book describing facts about its production.
 
 
 [index]
-Example Index
--------------
+== Example Index
 ////////////////////////////////////////////////////////////////
 The index is normally left completely empty, the contents being
 generated automatically by the DocBook toolchain.

@@ -5,7 +5,7 @@ xtUML Project Implementation Note
 == 1 Abstract
 
 Create and structure a git repository on GitHub to house the development,
-authoring and production and of the OOA Book.
+authoring and production and of _OOA Book_.
 
 == 2 Introduction and Background
 
@@ -88,6 +88,8 @@ will be applied once better understood.
 
 == 4 Work Required
 
+Create the files and folders per the requirements.
+
 == 5 Implementation Comments
 
 == 6 Unit Test
@@ -104,23 +106,25 @@ n/a
 - branch:  11513_repo
 
 ----
- CONTRIBUTING.md                         |  70 +++++++++++++++++++++++++++++
- LICENSE.adoc                            | 202 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- README.md => README.adoc                |   2 +-
- book/book.adoc                          | 104 ++++++++++++++++++++++++++++++++++++++++++
- book/book.txt                           | 156 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- book/chapter_second.adoc                |   6 +++
- book/chapter_template.adoc              |  53 ++++++++++++++++++++++
+ CONTRIBUTING.adoc                       |  42 ++++++++++++++++++++++
+ LICENSE.adoc                            |   5 +++
+ README.adoc                             |  19 ++++++++++
+ README.md                               |   2 --
+ book/book.adoc                          |  94 +++++++++++++++++++++++++++++++++++++++++++++++++
+ book/book.txt                           | 156 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ book/chapter_second.adoc                |   6 ++++
+ book/chapter_template.adoc              |  53 ++++++++++++++++++++++++++++
  book/chapter_third.adoc                 |   3 ++
  book/images/asciidoc.png                | Bin 0 -> 27677 bytes
- doc/process/templates/README.adoc       |  11 +++++
- doc/process/templates/ant_template.adoc |  99 ++++++++++++++++++++++++++++++++++++++++
- doc/process/templates/chapter.adoc      |  53 ++++++++++++++++++++++
- doc/process/templates/dnt_template.adoc | 126 +++++++++++++++++++++++++++++++++++++++++++++++++++
- doc/process/templates/int_template.adoc | 136 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/notes/11513_repo_int.adoc           | 143 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/README.adoc       |  11 ++++++
+ doc/process/templates/ant_template.adoc |  99 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/chapter.adoc      |  53 ++++++++++++++++++++++++++++
+ doc/process/templates/dnt_template.adoc | 126 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ doc/process/templates/int_template.adoc | 136 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  doc/process/templates/localimage.png    | Bin 0 -> 12827 bytes
- doc/process/templates/rvm_template.adoc |  22 +++++++++
- 16 files changed, 1042 insertions(+), 1 deletion(-)
+ doc/process/templates/rvm_template.adoc |  22 ++++++++++++
+ 18 files changed, 968 insertions(+), 2 deletions(-)
 ----
 
 == 9 Document References
