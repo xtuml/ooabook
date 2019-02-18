@@ -1,0 +1,149 @@
+= OOA Book Initial Analysis
+
+xtUML Project Analysis Note
+
+== 1 Abstract
+
+This issue is raised to begin to analyze and plan the proposed report/book on
+the Shlaer-Mellor method. Aims and objectives must be defined. A loose
+outline/direction should be proposed.
+
+== 2 Introduction and Background
+
+See the `README` file at the root of this repository for more information.
+
+== 3 Requirements
+
+==== 3.1 Objectives shall be listed and discussed
+
+==== 3.2 A straw man outline shall be proposed
+
+==== 3.3 Next steps shall be laid out
+
+== 4 Analysis
+
+==== 4.1 Objectives and stake holders
+
+The motivation for work on such a book as this has come from several different
+business areas. The following are a (roughly ordered) list of objectives for
+this book.
+
+. Clarification of the method
+  - Several elements are used in tooling but have never been described in the
+    literature. It is time to catch up.
+. Formalization of the method in xtUML
+. Consolidation and broadening of the community
+  - Seeding interest in a wider range of audiences (including academic
+    audiences)
+
+The following are ways stake holders gain value from such a book.
+
+. One Fact
+  .. One Fact is the number one tool supplier in the S-M community. Producing
+     such a book strengthens and establishes One Fact as the "keeper of the
+     keys" for the method and confirms BridgePoint as the most definitive
+     implementation of the method in use.
+  .. Such a book enables One Fact to continue to lead growth and leadership in
+     the xtUML user community.
+  .. An OOA Book provides a well understood avenue for marketing the method to
+     potential new users/S-M community members.
+  .. Formalizing the method in literature helps to make critical decisions that
+     will result in better, more consistent tooling.
+. BridgePoint users
+  .. The publication of such a book would streamline BridgePoint users in
+     on-ramping new engineers with up to date information and best practices.
+  .. Such a book when reviewed provides a platform for community based decisions
+     on the direction of the tooling for the future.
+  .. Literature will improve the understanding and effectiveness of existing
+     users.
+. Other xtUML/xUML users
+  .. A book provides a common ground for users of all executable dialects to
+     discuss the method and learn from one another.
+
+==== 4.2 Outline
+
+The following is a rough outline for the proposed book. This is subject to
+change. As noted in <<dr-2>> section 3.3.2, chapters will not be ordered during
+the writing of the book. Chapter ordering is a task best left till the end. As
+such, the following outline is only partially ordered.
+
+. Part 1: xtUML Method Report
+  * Delayed accelerated event to self
+  * System modeling
+     - Components
+       *** Component cardinality
+     - Interfaces
+     - Ports
+       *** Polymorphic port
+     - Messages
+       *** Synchronous/asynchronous
+       *** Returning values
+       *** Mapping to class-based operations or functions
+     - Deployments
+  * Class-based state machines
+  * Creation events
+  * Container types
+  * Type system
+  * Packaging
+    - Package references
+    - “Domain” packages
+    - Packaging idioms and conventions
+  * Error handling
+    - Cannot happen
+    - Exceptions
+    - User defined exceptions
+  * Action Language Dialects
+    - OAL
+    - MASL
+    - ASL
+    - Alf
+  * Mellor-Balcer/Raistrick rationalization:
+    - Polymorphic event
+    - Baseless referentials
+      *** Referential as identifier behavior
+    - Final states
+  * xtUML relationship with UML (as specified by OMG)
+. Part 2: xtUML Tooling Survey
+  * BridgePoint
+    - Commentary on BridgePoint deviations from the method
+  * iUML
+    - TBD
+  * Leon’s tool
+    - TBD
+  * MASL architecture, inspector
+    - TBD
+. Appendices
+  * TBD
+
+==== 4.3 Next steps
+
+* Read Mellor-Balcer: [.underline]#Executable UML: A Foundation for Model-Driven Architecture#
+* Read Raistrick: [.underline]#Model Driven Architecture with Executable UML#
+* Begin creating content/writing chapters
+  - Capture questions, difficulties
+  - Schedule meetings, stage reviews to resolve difficulties
+  - Capture the process in documentation
+  - Refine outline as necessary
+* Prepare an announcement to interested parties
+  - Compile a list of potential contributors
+  - Draft a note to introduce contributors to the repository and project
+  - Consider inviting contributors little by little
+
+== 5 Work Required
+
+Execute <<4.3 Next steps>> as appropriate
+
+== 6 Acceptance Test
+
+N/A
+
+== 7 Document References
+
+. [[dr-1]] https://support.onefact.net/issues/11527[BridgePoint DEI #11527 Initial analysis]
+. [[dr-2]] link:11513_repo_int.adoc[#11513 Implementation Note]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
