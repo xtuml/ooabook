@@ -39,7 +39,7 @@ Supply a folder for images ('images') establishing the convention that
 all images go in a single folder under the 'book' directory.
 
 ==== 3.3.2 File Naming Conventions
-Naming conventions shall be intensional even if they evolve over time.
+Naming conventions shall be intentional even if they evolve over time.
 Here are some rules to start.
 
 - File names shall have no blanks in them.

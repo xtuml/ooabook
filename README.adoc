@@ -15,5 +15,5 @@ by _de-facto_ implementations, specific engineering practices and tooling.
 It is time for an OOA Book.
 
 The _OOA Book_ will pick up where _Mellor Balcer_ and _Raistrick et al_ left
-off.  This book will document the Current State of the Method and the state
+off.  This book will document the current state of the Method and the state
 of being of the tooling.
