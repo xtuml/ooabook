@@ -1,0 +1,5 @@
+= Copyright 2019 One Fact Inc
+
+No initial licensing is being spelled out for _OOA Book_.  One Fact Inc
+shall copyright the initial draft of the book.  It is anticipated that
+more open licensing will be applied once better understood.

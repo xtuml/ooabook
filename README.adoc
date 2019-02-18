@@ -1,0 +1,19 @@
+= ooabook
+
+OOA / xtUML / xUML Report on the Methodology and Tooling
+
+The Shlaer-Mellor Method dates back to the late '80s and early '90s
+during the heat of the _Modeling Wars_.  xUML and xtUML were born out
+of the Method as UML notation standardization swept the modeling landscape.
+Books were written; tools were built and sold; methodology update reports
+were produced...
+
+Internet Globalization, an Open Source movement and other factors renovated
+the rigorous and precise modeling and methodology arena.  The Method carried
+on.  However, improvements in technique and tooling were documented mostly
+by _de-facto_ implementations, specific engineering practices and tooling.
+It is time for an OOA Book.
+
+The _OOA Book_ will pick up where _Mellor Balcer_ and _Raistrick et al_ left
+off.  This book will document the Current State of the Method and the state
+of being of the tooling.
