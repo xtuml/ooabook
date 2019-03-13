@@ -1,0 +1,38 @@
+= OOA Book Initial Analysis
+
+xtUML Project Review Minutes
+
+ Reviewed:  11527_initial_analysis_ant.adoc
+ Present:  Levi, Cort
+
+ -- Num Type  Who  Section  Comment
+ x- 01  min   Cort xxx      Outline "minimum meets requirements" strategy.
+ x- 02  min   Cort 4        "tool supplier" -> "supplier of services around"
+ x- 03  min   Cort 4        "keeper of the keys" -> "steward"
+ x- 04  min   Cort xxx      In the book, we will need to define terms
+                            early on.  OOA, xtUML, Method, xUML, etc.  Let
+                            us define the terms carefully, then use them
+                            consistently.  This will be in the introduction 
+                            of the book.  Raise an issue specifically for this
+                            and assign to Cort.
+                            https://support.onefact.net/issues/11559
+ x- 05  min   Cort 4.1 3    Find the name of Leon's methodology and tooling.
+                            Decided to leave this out for now. We can add it
+                            back later.
+ x- 06  min   Cort 4.2      Consider addressing existing issues in the Method
+                            before "extending" the Method (components).
+                            This is to be considered during the sequencing
+                            phase.
+ x- 07  min   Cort 4.2      "Container types" -> "Collection types"
+ x- 08  min   Cort 4.3      Write a little before reading.
+                            Write the questions.  Raise issue.
+ x- 09  min   Cort 4.3      Raise issues for these action items.
+                            Make a project plan.
+
+ No major observations, a re-review is not required.
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
