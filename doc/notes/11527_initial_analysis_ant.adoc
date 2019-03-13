@@ -39,9 +39,9 @@ this book.
 The following are ways stake holders gain value from such a book.
 
 . One Fact
-  .. One Fact is the number one tool supplier in the S-M community. Producing
-     such a book strengthens and establishes One Fact as the "keeper of the
-     keys" for the method and confirms BridgePoint as the most definitive
+  .. One Fact is the number one supplier of services in the S-M community.
+     Producing such a book strengthens and establishes One Fact as the steward
+     for the method and confirms BridgePoint as the most definitive
      implementation of the method in use.
   .. Such a book enables One Fact to continue to lead growth and leadership in
      the xtUML user community.
@@ -82,7 +82,7 @@ such, the following outline is only partially ordered.
      - Deployments
   * Class-based state machines
   * Creation events
-  * Container types
+  * Collection types
   * Type system
   * Packaging
     - Package references
@@ -108,22 +108,21 @@ such, the following outline is only partially ordered.
     - Commentary on BridgePoint deviations from the method
   * iUML
     - TBD
-  * Leon’s tool
-    - TBD
   * MASL architecture, inspector
     - TBD
+  * Others?
 . Appendices
   * TBD
 
 ==== 4.3 Next steps
 
-* Read Mellor-Balcer: [.underline]#Executable UML: A Foundation for Model-Driven Architecture#
-* Read Raistrick: [.underline]#Model Driven Architecture with Executable UML#
 * Begin creating content/writing chapters
   - Capture questions, difficulties
   - Schedule meetings, stage reviews to resolve difficulties
   - Capture the process in documentation
   - Refine outline as necessary
+* Read Mellor-Balcer: [.underline]#Executable UML: A Foundation for Model-Driven Architecture#
+* Read Raistrick: [.underline]#Model Driven Architecture with Executable UML#
 * Prepare an announcement to interested parties
   - Compile a list of potential contributors
   - Draft a note to introduce contributors to the repository and project
