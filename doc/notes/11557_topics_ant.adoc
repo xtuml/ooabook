@@ -1,0 +1,34 @@
+= OOA Book Requested Topics
+
+xtUML Project Analysis Note
+
+== 1 Abstract
+
+This note serves as a staging list of proposed topics for the OOA book.
+
+== 2 Introduction and Background
+
+<<dr-1>> and <<dr-2>> give background on the book.  An analysis is being
+performed, but meanwhile new ideas may arise.  This note can serve as a list
+which can be updated to include requested topics and features of the book.
+
+== 3 Requirements
+
+=== 3.1 Explain Relaxed Same Data Rule
+
+== 4 Analysis
+
+== 5 Work Required
+
+== 6 Acceptance Test
+
+== 7 Document References
+
+1.  [[dr-1]] https://support.onefact.net/issues/11506[11506 - OOA'20]
+2.  [[dr-2]] https://support.onefact.net/issues/11527[11527 - initial analysis]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
