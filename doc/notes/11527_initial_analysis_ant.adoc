@@ -68,7 +68,10 @@ the writing of the book. Chapter ordering is a task best left till the end. As
 such, the following outline is only partially ordered.
 
 . Part 1: xtUML Method Report
-  * Delayed accelerated event to self
+  * Event Dispatch
+    ** simultaneous expired timers (delayed events)
+    ** event queue overrun (Consider 'simulated time'.)
+    ** Delayed accelerated event to self
   * System modeling
      - Components
        *** Component cardinality

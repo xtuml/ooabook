@@ -1,0 +1,114 @@
+= xtUML Days OOA Book Panel Questions
+
+== Abstract
+
+xtUML Days 2019 UK has planned for a panel discussion around the proposed
+'OOA Book'.  This note supplies questions to choose from for this panel
+debate.
+
+== Introduction and Background
+
+ This is a slide and needs to be in the book outline portion.
+
+The Shlaer-Mellor Method was published starting in 1988 and 1991 with the
+_Modeling the World in Data_ and _Object Lifecycles_.  It has been refined
+through the years in follow-on books and reports.  During the most recent
+decade, little has been published in literature while the tooling and
+practice has continued to evolve which have extended the Method by default.
+Also, tooling and practice has made choices in corners of the Method not
+clearly defined in literature.
+
+It is time for a publication that highlights these extensions and details
+taking on a position on best practive for the Shlaer-Mellor Method.  Such
+a publication will require collaboration among currently active modelers
+and tool smiths.
+
+== Analysis
+
+ Highlight question.
+ Add background scenario for each question.
+ Assign person to argue specific side.
+
+* System modeling
+  ** (Inter-domain) Messages
+     *** synchronous and asynchronous
+         **** **Should there be a distinction between _synchronous_ and
+              _asynchronous_ messages between domains?  If so, what are
+              the semantic differences?**
+     *** synchronous
+         **** **Should senders block on transmission of synchronous
+              inter-domain messages returning no data (void)?**
+     *** [Scenario] Consider domains 'navigation' and 'braking'.  A statement
+         within the the interior of a state action of an instance state
+         machine in 'navigation' sends the 'apply friction' message
+         (invokes a terminator service) on 'braking'.
+     *** See _Action Semantics for the UML_ for discussion on intra-domain
+         messaging semantics.
+  ** Domains (as Components)
+     *** "instances" of domains
+         **** **Can a domain be reused multiple times in the same system?
+              If so, how are messages directed to the correct instance of
+              the domain?**
+     *** [Scenario] Consider domains 'navigation' and 'braking'.  A statement
+         within the the interior of a state action of an instance state
+         machine in 'navigation' sends the 'apply friction' message to the
+         "left rear instance/instantiation" of the 'braking' domain.
+* Event Dispatch
+  ** delayed events
+     *** simultaneous expired timers (delayed events)
+         **** **How should simultaneously expired delayed events be
+              dispatched?**
+     *** [Scenario] Consider a domain with empty event queues and 3 pending
+         timers.  All 3 delayed events are past their expiration time.
+         The first 2 delayed events in the queue have the same expiration time.
+  ** event queue overrun
+     *** dispatch of delayed events in the face of full queues
+         **** **Should delayed events be dispatched when expired without
+              regard to the presence of non-delayed events?**
+     *** [Scenario] Consider a domain with non-empty event queues and pending
+         timers.  At least one delayed event is past its expiration time.
+     *** [Edge Case] Consider a cyclic, "self-stimulating" state machine (or
+         interacting set of state machines) that spins with no delay.
+     *** The concept of 'simulated time' or 'Discrete Event Simulation' may
+         inform this discussion.
+  ** Delayed accelerated event to self
+     *** accelerating delayed events
+     *** **Is a delayed event to self treated the same as a delayed event
+         to any instance?**
+     *** [Scenario] An instance state machine sets a timer and supplies an
+         event directed to itself.
+* Class-based state machines
+  ** **Are general class-based state machines a Good Thing and to be
+     supported in xtUML as today?**
+  ** **Should class-based state machines be limited to associative classes
+     only?**
+  ** **Should class-based state machines be deprecated?**
+* Creation events
+  ** **Are creation events a Good Thing and to be supported in xtUML as today?**
+  ** **Should creation events be deprecated?  Synchronous creation is sufficient.**
+* Type system
+  ** Collection types
+     *** **Is the existing Type System (of classes, user data types,
+         enumerations and structures) sufficient?**
+     *** **Are collection types (arrays, sequences, bags, sets,
+         dictionaries) are missing from the Method?**
+* Mellor-Balcer/Raistrick et al rationalization:
+  ** Polymorphic event
+     *** **Should Polymorphic events be 'concrete' visiting each level
+         of the hierarchy? (K-C)**
+     *** **Should Polymorphic events be 'abstract' consumed at exactly
+         one level of the hierarchy? (PT)**
+     *** **Should the above be consistent with sub/super (deferred) class
+         operations?**
+     *** **How shall the Method define a coexistence of concrete and
+         abstract polymorphic events?**
+
+== Document References
+
+. [[dr-1]] https://support.onefact.net/issues/11527[11527 - OOA Book Initial Analysis]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
