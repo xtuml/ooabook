@@ -8,8 +8,6 @@ debate.
 
 == Introduction and Background
 
- This is a slide and needs to be in the book outline portion.
-
 The Shlaer-Mellor Method was published starting in 1988 and 1991 with the
 _Modeling the World in Data_ and _Object Lifecycles_.  It has been refined
 through the years in follow-on books and reports.  During the most recent
@@ -19,15 +17,11 @@ Also, tooling and practice has made choices in corners of the Method not
 clearly defined in literature.
 
 It is time for a publication that highlights these extensions and details
-taking on a position on best practive for the Shlaer-Mellor Method.  Such
+taking on a position on best practice for the Shlaer-Mellor Method.  Such
 a publication will require collaboration among currently active modelers
 and tool smiths.
 
 == Analysis
-
- Highlight question.
- Add background scenario for each question.
- Assign person to argue specific side.
 
 * System modeling
   ** (Inter-domain) Messages
@@ -91,7 +85,7 @@ and tool smiths.
      *** **Is the existing Type System (of classes, user data types,
          enumerations and structures) sufficient?**
      *** **Are collection types (arrays, sequences, bags, sets,
-         dictionaries) are missing from the Method?**
+         dictionaries) missing from the Method?**
 * Mellor-Balcer/Raistrick et al rationalization:
   ** Polymorphic event
      *** **Should Polymorphic events be 'concrete' visiting each level
