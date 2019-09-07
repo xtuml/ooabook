@@ -68,48 +68,52 @@ the writing of the book. Chapter ordering is a task best left till the end. As
 such, the following outline is only partially ordered.
 
 . Part 1: xtUML Method Report
-  * Delayed accelerated event to self
   * System modeling
-     - Components
-       *** Component cardinality
-     - Interfaces
-     - Ports
-       *** Polymorphic port
-     - Messages
-       *** Synchronous/asynchronous
-       *** Returning values
-       *** Mapping to class-based operations or functions
-     - Deployments
+     ** Components
+        *** Component cardinality
+     ** Interfaces
+     ** Ports
+        *** Polymorphic port
+     ** Messages
+        *** Synchronous/asynchronous
+        *** Returning values
+        *** Mapping to class-based operations or functions
+     ** Deployments
+  * Dispatch
+    ** simultaneous expired timers (delayed events)
+    ** event queue overrun (Consider 'simulated time'.)
+    ** Delayed accelerated event to self
+    ** Message dispatch
   * Class-based state machines
   * Creation events
-  * Collection types
   * Type system
+    ** Collection types
   * Packaging
-    - Package references
-    - “Domain” packages
-    - Packaging idioms and conventions
+    ** Package references
+    ** “Domain” packages
+    ** Packaging idioms and conventions
   * Error handling
-    - Cannot happen
-    - Exceptions
-    - User defined exceptions
+    ** Cannot happen
+    ** Exceptions
+    ** User defined exceptions
   * Action Language Dialects
-    - OAL
-    - MASL
-    - ASL
-    - Alf
+    ** OAL
+    ** MASL
+    ** ASL
+    ** Alf
   * Mellor-Balcer/Raistrick rationalization:
-    - Polymorphic event
-    - Baseless referentials
-      *** Referential as identifier behavior
-    - Final states
+    ** Polymorphic event
+    ** Baseless referentials
+       *** Referential as identifier behavior
+    ** Final states
   * xtUML relationship with UML (as specified by OMG)
 . Part 2: xtUML Tooling Survey
   * BridgePoint
-    - Commentary on BridgePoint deviations from the method
+    ** Commentary on BridgePoint deviations from the method
   * iUML
-    - TBD
+    ** TBD
   * MASL architecture, inspector
-    - TBD
+    ** TBD
   * Others?
 . Appendices
   * TBD
