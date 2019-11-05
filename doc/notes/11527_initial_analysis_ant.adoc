@@ -39,14 +39,14 @@ this book.
 The following are ways stake holders gain value from such a book.
 
 . One Fact
-  .. One Fact is the number one supplier of services in the S-M community.
-     Producing such a book strengthens and establishes One Fact as the steward
-     for the method and confirms BridgePoint as the most definitive
+  .. One Fact is a supplier of services in the Shlaer-Mellor community.
+     Participating in such a book strengthens and establishes One Fact as a
+     steward of the method and confirms BridgePoint as a viable choice of
      implementation of the method in use.
   .. Such a book enables One Fact to continue to lead growth and leadership in
      the xtUML user community.
   .. An OOA Book provides a well understood avenue for marketing the method to
-     potential new users/S-M community members.
+     potential new users and S-M community members.
   .. Formalizing the method in literature helps to make critical decisions that
      will result in better, more consistent tooling.
 . BridgePoint users
