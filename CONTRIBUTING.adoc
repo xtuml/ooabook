@@ -1,7 +1,7 @@
 = Contributing to _OOA Book_
 
 Welcome potential contributor!  Your participation is gladly received.
-This short note eplains a few keys to becoming a productive collaborator
+This short note explains a few keys to becoming a productive collaborator
 on the project.  Authors, reviewers, researchers, translators and other
 roles are necessary to the success of the project.
 
@@ -29,9 +29,9 @@ out how or if the correction needs to be addressed.
 // ## ライセンス
 
 By opening a pull request (PR) to this repository, you agree to provide
-your work under the link:LICENSE.adoc[project license].  Also, you agree
-to grant such license of your work as is required for the purposes of
-future print editions to One Fact Inc.  Should your changes appear
+your work under the link:LICENSE.adoc[project license], and you agree
+to grant such license of your work, as is required for the purposes of
+future print editions, to One Fact, Inc.  Should your changes appear
 in a printed edition, you will be included in the
 link:book/contributors.adoc[contributors list].
 ////
