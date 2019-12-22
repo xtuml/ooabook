@@ -1,0 +1,13 @@
+= tools directory
+
+This directory is for documenting useful tools for contributors to the ooabook
+project.
+
+The format for the contents of this directory is:
+- <toolname>.adoc
+
+The contents of the <toolname>.adoc should describe the tool and include a URL
+to where the tool can be obtained.
+
+If the number of entries gets too big, classification directories will be added.
+
