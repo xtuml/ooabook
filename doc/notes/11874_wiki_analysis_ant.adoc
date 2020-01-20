@@ -1,0 +1,86 @@
+= OOA Book Wiki Initial Analysis
+
+xtUML Project Analysis Note
+
+== 1 Abstract
+
+This issue is raised to plan the wiki for the ooabook repository. It was 
+discovered that precedent has been set for creating documentation from a git 
+repository-based wiki, and it looked to be the best way to handle the creation 
+of the next generation of Shlaer-Mellor documentation. The wiki will become the
+repository for content, and the ooabook repository will contain the tools needed
+for content creation and maintenance.
+
+== 2 Introduction and Background
+
+The leg work for discovering and establishing precedent for the usage of a wiki
+for documentation was done by Levi Starrett for the xtuml/ciera repository.
+Examples from external sources,also discovered for Ciera, are linked in the 
+issue for this work, <<dr-1>>.
+
+== 3 Requirements
+
+==== 3.1 Objectives shall be listed and discussed
+
+==== 3.2 A straw man outline shall be proposed
+
+==== 3.3 Next steps shall be laid out
+
+== 4 Analysis
+
+==== 4.1 Objectives
+
+The motivation for work on ooabook and objectives are discussed in the analysis
+note for the start of the project, <<dr-2>>. Further discussion and ideation on
+the subject has generated some ideas that might extend beyond a single book.
+
+. A periodic publication of peer reviewed articles covering topics not directly
+related to the method.
+. Addendums to the method, like the OOA 92, OOA 96, or OOA 97, that can be
+selected and eventually merged into a new edition of the book.
+
+The ooabook.wiki repository will be set up to contain content, while the ooabook
+repository will be used for content and process support. It is imagined that the
+ooabook repository could also be used to hold generated output of the content in
+Docbook, PDF, html, or other formats, but this decision is still TBD.
+
+==== 4.2 Outline
+
+The following is a rough outline for the wiki. This is subject to change.
+
+  * Home
+  ** Book - contains the OOA Book as outlined in <<dr-2>>.
+  ** OOA Addendums
+  ** Articles
+    *** <subject matter heading 1>
+    *** <subject matter heading 2>
+
+==== 4.3 Next steps
+
+* Begin creating wiki content
+  - Rough outline
+  - Home.asciidoc document on first page
+  - _Sidebar.asciidoc document to show outline
+  - pom.xml to allow building
+  - Determine if any content should be moved from ooabook repository to wiki
+  - Refine outline as necessary
+
+== 5 Work Required
+
+Execute <<4.3 Next steps>> as appropriate
+
+== 6 Acceptance Test
+
+N/A
+
+== 7 Document References
+
+. [[dr-1]] https://support.onefact.net/issues/11874[BridgePoint DEI #11874 Set
+up ooabook wiki]
+. [[dr-2]] https://support.onefact.net/issues/11527[BridgePoint DEI #11527 Initial analysis]
+
+---
+
+This work is licensed under the Creative Commons CC0 License
+
+---
