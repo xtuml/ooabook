@@ -1,5 +1,5 @@
 = OOA Book
-Levi Starrett
+Levi Starrett;Lee Riemenschneider <lwriemen@frogooa.com>
 v1.0, 2019-02
 :doctype: book
 
@@ -52,6 +52,13 @@ to Shlaer-Mellor, xtUML and xUML people.
 
 [bibliography]
 .Books
+- [[[OOA04]]] Chris Raistrick, Paul Francis, John Wright, Colin Carter, & Ian Wilkie. (2004). 'Model Driven Architecture with Executable UML'. Cambridge University Press. ISBN 0-521-53771-1.
+- [[[OOA02]]] Stephen J. Mellor & Marc Balcer (2002). 'Executable UML: A
+  Foundation for Model-Driven Architecture'. Addison Wesley. ISBN 0-201-74804-5.
+- [[[OOA91]]] Sally Shlaer, Stephen Mellor (1991). 'Object Lifecycles: Modeling
+  the World in States'. Yourdon Press. ISBN 0-13-629940-7.
+- [[[OOA88]]] Sally Shlaer, Stephen Mellor (1988). 'Object-Oriented Systems
+  Analysis: Modeling the World in Data'. Yourdon Press. ISBN 0-13-629023-X.
 - [[[taoup]]] Eric Steven Raymond. 'The Art of Unix
   Programming'. Addison-Wesley. ISBN 0-13-142901-9.
 - [[[walsh-muellner]]] Norman Walsh & Leonard Muellner.
@@ -60,13 +67,13 @@ to Shlaer-Mellor, xtUML and xUML people.
 
 [bibliography]
 .Articles
-- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
+- [[[OOA97]]] Ian Wilkie, Colin Carter, Paul Francis. 'OOA 97', Kennedy Carter. 1997. (KC/OOA/CTN/53)
+- [[[OOA96]]] Sally Shlaer, Neil Lang. 'Shlaer-Mellor Method: The OOA96 Report',
+  Project Technology. 1996.
 
 [bibliography]
 .Web Sites
-- TODO:  Learn how to link web sites here in a nice way.
-- [[[abc2003]]] Gall Anonim. 'An article', Whatever. 2003.
-
+- https://xtuml.org/[xtuml.org]
 
 [glossary]
 == Example Glossary
