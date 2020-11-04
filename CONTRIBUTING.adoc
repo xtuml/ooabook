@@ -30,8 +30,7 @@ out how or if the correction needs to be addressed.
 
 By opening a pull request (PR) to this repository, you agree to provide
 your work under the link:LICENSE.adoc[project license], and you agree
-to grant such license of your work, as is required for the purposes of
-future print editions, to One Fact, Inc.  Should your changes appear
+to grant such license of your work.  Should your changes appear
 in a printed edition, you will be included in the
 link:book/contributors.adoc[contributors list].
 ////
