@@ -25,7 +25,7 @@ See the `README` file at the root of this repository for more information.
 ==== 4.1 Objectives and stake holders
 
 The motivation for work on such a book as this has come from several different
-business areas. The following are a (roughly ordered) list of objectives for
+areas. The following are a (roughly ordered) list of objectives for
 this book.
 
 . Clarification of the method
@@ -38,27 +38,24 @@ this book.
 
 The following are ways stake holders gain value from such a book.
 
-. One Fact
-  .. One Fact is a supplier of services in the Shlaer-Mellor community.
-     Participating in such a book strengthens and establishes One Fact as a
-     steward of the method and confirms BridgePoint as a viable choice of
-     implementation of the method in use.
-  .. Such a book enables One Fact to continue to lead growth and leadership in
-     the xtUML user community.
-  .. An OOA Book provides a well understood avenue for marketing the method to
-     potential new users and S-M community members.
-  .. Formalizing the method in literature helps to make critical decisions that
-     will result in better, more consistent tooling.
 . BridgePoint users
   .. The publication of such a book would streamline BridgePoint users in
      on-ramping new engineers with up to date information and best practices.
   .. Such a book when reviewed provides a platform for community based decisions
      on the direction of the tooling for the future.
+  .. Formalizing the method in literature helps to make critical decisions that
+     will result in better, more consistent tooling.
   .. Literature will improve the understanding and effectiveness of existing
      users.
-. Other xtUML/xUML users
+. Other Shlaer-Mellor xtUML/xUML users
   .. A book provides a common ground for users of all executable dialects to
      discuss the method and learn from one another.
+. One Fact
+  .. One Fact is a supplier of services within the Shlaer-Mellor community.
+     Participating in such a book strengthens the position of One Fact as a
+     cooperative steward of the method.
+  .. An OOA Book provides a well understood avenue for marketing the method to
+     potential new users and S-M community members.
 
 ==== 4.2 Outline
 
@@ -136,11 +133,7 @@ such, the following outline is only partially ordered.
 
 Execute <<4.3 Next steps>> as appropriate
 
-== 6 Acceptance Test
-
-N/A
-
-== 7 Document References
+== 6 Document References
 
 . [[dr-1]] https://support.onefact.net/issues/11527[BridgePoint DEI #11527 Initial analysis]
 . [[dr-2]] link:11513_repo_int.adoc[#11513 Implementation Note]
